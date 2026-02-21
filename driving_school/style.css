@@ -41,7 +41,7 @@ table{
      border: 1px solid black;
      padding-left: 250px;
 }
-tr{
+td{
      border: 1px solid black;
      text-align: center;
      padding: 20px;
@@ -50,6 +50,7 @@ tr{
 tr{
      padding-left: 50px;
 }
+
 
 
 
