@@ -9,136 +9,162 @@
 </head>
 
 <body>
-    <div class="page-container">
-        <div class="left-side">
-            <div class="avatar">
-                <img src="img/avatar.jpg" alt="photo" class='image'>
+    <main>
+        <div class="page-container">
+            <aside class="left-side">
+                <figure>
+                    <img src="img/avatar.jpg" alt="Моє фото">
+                </figure>
+                <section id="aboutme">
+                    <header>
+                        <h2>Особисті дані</h2>
+                        <hr>
+                    </header>
+                    <ul>
+                        <li><b>Ім'я</b>
+                            <ul>
+                                <li>Назарій Перегінець</li>
+                            </ul>
+                        </li>
+                        <li><b>Адреса</b>
+                            <ul>
+                                <li>
+                                    <address>вул. Лісова 1, с. Лісний Хлібичин, Коломийський район, Івано-франківська
+                                        область</address>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><b>Номер телефону</b>
+                            <ul>
+                                <li>+380 (96) 744 01 35</li>
+                            </ul>
+                        </li>
+                        <li><b>Email</b>
+                            <ul>
+                                <li><a href="">nazarijpereginec@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li><b>Дата народження</b>
+                            <ul>
+                                <li><time datetime="2008-04-13">13-04-2008</time></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <section>
+                        <hgroup>
+                            <h3>Інтереси</h3>
+                            <hr>
+                        </hgroup>
+                        <ul>
+                            <li>Психологія</li>
+                            <li>Філософія</li>
+                            <li>Історія</li>
+                            <li>Спорт</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <hgroup>
+                            <h3>Мови</h3>
+                            <hr>
+                        </hgroup>
+                        <ul>
+                            <li><b>Англійська: </b>A1-A2</li>
+                            <li><b>Українська: </b>Рідна мова</li>
+                        </ul>
+                    </section>
+                </section>
+            </aside>
+
+            <div class="right-side">
+                <header>
+                    <h1>Назарій Перегінець</h1>
+                    <hr>
+                </header>
+                <section class="menu">
+                    <nav>
+                        <h2>Меню резюме</h2>
+                        <ul>
+                            <li><a href="#aboutme">Особисті дані</a></li>
+                            <li><a href="#experience">Досвід роботи</a></li>
+                            <li><a href="#education">Освіта і кваліфікації</a></li>
+                            <li><a href="#course">Курси</a></li>
+                            <li><a href="#skills">Навички</a></li>
+                            <li><a href="#portfolio">Портфоліо</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section id="experience">
+                    <h2>Досвід роботи</h2>
+                    <hr>
+                    <ul>
+                        <li><b>Столяр</b> (<time datetime="2025-07">лип. 2025</time> - <time
+                                datetime="2025-08">серп.2025</time>)
+                            <ul>
+                                <li class="place">Отинія, пилорама</li>
+                                <li>Створення ящиків для снарядів, які потім відправляли на передову</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="education">
+                    <h2>Освіта і кваліфікації</h2>
+                    <hr>
+                    <ul>
+                        <li><b>Молодший бакалавр</b> (<time datetime="2023-09">вер. 2023</time> - <time
+                                datetime="2026-02">теп. час</time>)
+                            <ul>
+                                <li class="place">ВСП "Фаховий коледж електронних приладів ІФНТУНГ"</li>
+                                <li>Спеціальність 121 «Інженерія програмного забезпечення»</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="course">
+                    <h2>Курси</h2>
+                    <hr>
+                    <ul>
+                        <li><b>Курси C++</b> (<time datetime="2025-01">січ. 2025</time> - <time datetime="2025-02">лют.
+                                2025</time>)
+                            <ul>
+                                <li class="place">YouTube канал "Школа itProger"</li>
+                            </ul>
+                        </li>
+                        <li><b>Java Basics</b> (<time datetime="2025-12">груд. 2025</time> - <time
+                                datetime="2026-02">теп.
+                                час</time>)
+                            <ul>
+                                <li class="place">Epam Campus</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="skills">
+                    <h2>Навички</h2>
+                    <hr>
+                    <ul>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </section>
+
+                <section id="portfolio">
+                    <h2>Портфоліо</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="../driving_school/index.html" class="btn">Лабораторна робота №1</a></li>
+                        <li><a href="index.html" class="btn">Лабораторна робота №2, 3, 4</a></li>
+                    </ul>
+                </section>
             </div>
-            <h2 id="aboutme">Особисті дані</h2>
-            <hr>
-            <ul>
-                <li><b>Ім'я</b>
-                    <ul>
-                        <li>Назарій Перегінець</li>
-                    </ul>
-                </li>
-                <li><b>Адреса</b>
-                    <ul>
-                        <li>вул. Лісова 1, с. Лісний Хлібичин, Коломийський район, Івано-франківська область</li>
-                    </ul>
-                </li>
-                <li><b>Номер телефону</b>
-                    <ul>
-                        <li>+380 (96) 744 01 35</li>
-                    </ul>
-                </li>
-                <li><b>Email</b>
-                    <ul>
-                        <li>nazarijpereginec@gmail.com</li>
-                    </ul>
-                </li>
-                <li><b>Дата народження</b>
-                    <ul>
-                        <li>13-04-2008</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h2>Інтереси</h2>
-            <hr>
-            <ul>
-                <li><b>Психологія</b></li>
-                <li><b>Філософія</b></li>
-                <li><b>Історія</b></li>
-                <li><b>Спорт</b></li>
-            </ul>
-
-            <h2>Мови</h2>
-            <hr>
-            <ul>
-                <li><b>Англійська: </b>A1-A2</li>
-                <li><b>Українська: </b>Рідна мова</li>
-            </ul>
         </div>
-
-        <div class="right-side">
-            <h1>Назарій Перегінець</h1>
-            <hr>
-            <div class="menu">
-                <h2>Меню резюме</h2>
-                <ul>
-                    <li><a href="#aboutme">Особисті дані</a></li>
-                    <li><a href="#experience">Досвід роботи</a></li>
-                    <li><a href="#education">Освіта і кваліфікації</a></li>
-                    <li><a href="#course">Курси</a></li>
-                    <li><a href="#skills">Навички</a></li>
-                    <li><a href="#portfolio">Портфоліо</a></li>
-                </ul>
-            </div>
-            <h2 id="experience">Досвід роботи</h2>
-            <hr>
-            <ul>
-                <li><b>Столяр</b> (лип. 2025 - серп. 2025)
-                    <ul>
-                        <li class="place">Отинія, пилорама</li>
-                        <li>Створення ящиків для снарядів, які потім відправляли на передову</li>
-                </li>
-            </ul>
-            </ul>
-
-            <h2 id="education">Освіта і кваліфікації</h2>
-            <hr>
-            <ul>
-                <li><b>Молодший бакалавр</b> (вер. 2023 - теп. час)
-                    <ul>
-                        <li class="place">ВСП "Фаховий коледж електронних приладів ІФНТУНГ"</li>
-                        <li>Спеціальність 121 «Інженерія програмного забезпечення»</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h2 id="course">Курси</h2>
-            <hr>
-            <ul>
-                <li><b>Курси C++</b> (січ. 2025 - лют. 2025)
-                    <ul>
-                        <li class="place">YouTube канал "Школа itProger"</li>
-                    </ul>
-                </li>
-                <li><b>Java Basics</b> (груд. 2025 - теп. час)
-                    <ul>
-                        <li class="place">Epam Campus</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h2 id="skills">Навички</h2>
-            <hr>
-            <ul>
-                <li>C++</li>
-                <li>C</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>SQL</li>
-            </ul>
-            <h2 id="portfolio">Портфоліо</h2>
-            <hr>
-            <ul>
-                <li><a href="lr1/index.html" class="btn">Лабораторна робота №1</a></li>
-                <li><a href="" class="btn">Лабораторна робота №...</a></li>
-            </ul>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
