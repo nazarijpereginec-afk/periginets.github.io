@@ -29,6 +29,9 @@ h2 {
 ul{
      list-style-type: none;
 }
+ul li{
+     magin-top: 30px;
+}
 ul li a{
      text-decoration: none;
      display: inline-block;
@@ -48,6 +51,7 @@ td{
      text-align: center;
      padding: 20px;
 }
+
 
 
 
