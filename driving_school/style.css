@@ -39,17 +39,17 @@ a{
 
 table{
      border-bottom: 1px solid black;
-     padding-left: 200px;
+     padding-left: 230px;
 }
 td{
      border: 1px solid black;
+     text-align: center;
 }
-td last-child{
-     border-bottom: none;
-}
+
 tr{
      padding-left: 50px;
 }
+
 
 
 
