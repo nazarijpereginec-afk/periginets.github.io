@@ -26,13 +26,14 @@ h2 {
     color: #261572;
     text-align: center
 }
-ul li{
+ul{
      list-style-type: none;
 }
 ul li a{
      text-decoration: none;
      display: inline-block;
 }
+
 
 
 
