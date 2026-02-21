@@ -37,6 +37,13 @@ a{
      text-decoration: none;
 }
 
+table{
+     border-bottom: 2px solid black;
+}
+table tr{
+     border-bottom: 2px solid black;
+}
+
 
 
 
