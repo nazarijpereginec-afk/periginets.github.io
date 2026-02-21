@@ -8,6 +8,7 @@ body {
     max-width: 900px;
     padding: 7px;
     margin-top: 40px;
+    line-height: 20px;
     border: 2px solid black;
 }
 
@@ -27,9 +28,6 @@ h2 {
 }
 ul{
      list-style-type: none;
-}
-ul li{
-     magin-top: 30px;
 }
 ul li a{
      text-decoration: none;
@@ -51,6 +49,7 @@ td{
      text-align: center;
      padding: 20px;
 }
+
 
 
 
