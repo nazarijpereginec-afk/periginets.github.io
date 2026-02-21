@@ -7,7 +7,7 @@ body {
     margin-left: 500px;
     max-width: 900px;
     padding: 7px;
-    margin-top: 20px;
+    margin-top: 40px;
     border: 2px solid black;
 }
 
@@ -50,6 +50,7 @@ td{
 tr{
      padding-left: 50px;
 }
+
 
 
 
