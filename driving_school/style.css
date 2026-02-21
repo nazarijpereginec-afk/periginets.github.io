@@ -1,6 +1,7 @@
 h1 {
      font-size: 48px;
      color: #97104f;
+      text-align: center
 }
 body {
     font-size: 24px;
@@ -35,9 +36,8 @@ ul {
 b{
     font-weight: bold;
 }
-h1 {
-    text-align: center
-}
+
+
 
 
 
