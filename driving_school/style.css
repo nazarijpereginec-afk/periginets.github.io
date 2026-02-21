@@ -41,7 +41,7 @@ table{
      border-bottom: 1px solid black;
      padding-left: 300px;
 }
-tr{
+td{
      border: 1px solid black;
      padding: 0
 }
@@ -51,6 +51,7 @@ tr last-child{
 td{
      padding-left: 50px;
 }
+
 
 
 
