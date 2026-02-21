@@ -39,10 +39,12 @@ a{
 
 table{
      border: 2px solid black;
+     padding-left: 300px;
 }
 table td{
      border: 1px solid black;
 }
+
 
 
 
