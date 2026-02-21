@@ -43,14 +43,14 @@ table{
 }
 td{
      border: 1px solid black;
-     padding: 0
 }
-tr last-child{
+td last-child{
      border-bottom: none;
 }
-td{
+tr{
      padding-left: 50px;
 }
+
 
 
 
