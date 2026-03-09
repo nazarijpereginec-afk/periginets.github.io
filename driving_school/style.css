@@ -40,7 +40,6 @@ ul li a{
 }
 
 a{
-     color: black;
      text-decoration: none;
 }
 
@@ -56,6 +55,7 @@ td{
      text-align: center;
      padding: 20px;
 }
+
 
 
 
