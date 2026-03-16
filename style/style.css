@@ -15,9 +15,10 @@
 .left-side {
 	display: inline-block;
 	width: 25%;
+	margin: 7px;
 	background-color: #3a5e90;
 	color: white;
-	padding-left: 20px;
+	padding: 20px;
 	line-height: 40px;
 
 }
