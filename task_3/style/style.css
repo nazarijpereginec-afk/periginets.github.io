@@ -6,7 +6,7 @@ h1{
 
 h1::before, 
 h1::after{
-    position: absolute
+    position: absolute;
     display: inline-block;
     content: "";
     height: 5px;
