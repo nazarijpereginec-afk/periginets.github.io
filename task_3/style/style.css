@@ -1,16 +1,17 @@
 h1{
     text-align: center;
     margin: 20px;
+    position: disable;
 }
 
 h1::before, 
 h1::after{
     display: inline-block;
     content: "";
-    border: none;
-    border-top: 5px solid black;
+    position: relative;
+    height: 5px;
     width: 200px;
-    padding-bottom: 6px;
-    backround-color: black;
+    bottom: 8px;
+    background-color: black;
 }
  
