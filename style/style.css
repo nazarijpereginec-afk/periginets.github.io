@@ -5,22 +5,20 @@
 }
 
 .page-container {
-	max-width: 1050px;
-	margin: 20px auto 0;
+	display: flex;
+	max-width: 1000px;
+	margin: 10px auto 0;
 	border: 2px solid #333;
 	padding: 0;
 	background: #fff;
+	line-height: 30px;
 }
 
 .left-side {
-	display: inline-block;
 	width: 25%;
-	margin: 7px;
 	background-color: #3a5e90;
 	color: white;
 	padding: 20px;
-	line-height: 40px;
-
 }
 
 .left-side li {
@@ -33,14 +31,11 @@
 
 .right-side {
 	font-size: 16px;
-	display: inline-block;
-	width: calc(75% - 40px);
+	width: calc(75% - 80px);
 	background-color: white;
-	margin: 7px;
 	padding: 20px;
-	padding-left: 0;
+	padding-left: 10px;
 	color: black;
-	line-height: 40px;
 
 }
 
@@ -79,7 +74,7 @@ h3 {
 
 nav li {
 	display: inline-block;
-	padding-left: 20px;
+	margin-left: 20px;
 }
 
 .btn {
@@ -101,7 +96,6 @@ nav li {
 	color: #fff;
 }
 
-#portfolio ul li{
+#portfolio ul li {
 	display: inline-block;
 }
-
